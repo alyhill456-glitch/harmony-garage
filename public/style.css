@@ -87,3 +87,50 @@ footer{background:#090b0c;border-top:1px solid #2d3436}
 @media(max-width:980px){.topbar{height:auto}.hero-graphic{opacity:.22;right:-10%}.hero-content{padding-top:110px}.hero-index{display:none}}
 @media(max-width:650px){.hero{min-height:630px}.hero h1{font-size:clamp(4.7rem,14vw,6.5rem)}.hero-content{padding-top:100px}.hero-graphic{right:-27%;opacity:.14}.hero-bottom{gap:14px}.actions{margin-bottom:65px}.brand-logo{width:58px;height:56px}.intro p{padding-left:18px}.panel{padding:23px}.menu-item{padding:20px}.intro,.team-section,.menu-section,.events,.apply-section,.portal-section{padding-top:78px;padding-bottom:78px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* CINEMATIC HARMONY — photographic FiveM garage hero and premium black/red identity */
+:root{--bg:#110e0e;--panel:#1d1919;--red:#c8323d;--red-bright:#ee4a54;--text:#f6f2ec;--muted:#b5aaa6;--line:#493c3c}
+body{background:#100e0e;color:#f5f1ec}
+.topbar{height:72px;background:#130e0cf5;border-bottom:1px solid #4a2b29;position:sticky;top:0;z-index:20;padding-left:max(26px,calc((100vw - 1240px)/2));padding-right:max(26px,calc((100vw - 1240px)/2))}
+.brand{gap:10px;letter-spacing:.06em;font-family:'Barlow Condensed',sans-serif;font-size:23px;font-weight:800}
+.brand-logo{width:58px;height:56px;object-fit:contain;filter:drop-shadow(0 1px 3px #000)}
+.brand small{font-size:8px;letter-spacing:.22em}
+.topbar nav{gap:24px}
+.topbar nav a{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:800;letter-spacing:.08em}
+.discord{background:#bd2935;border:1px solid #e54a54;font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:800}
+.hero{min-height:690px;display:flex;align-items:stretch;background:#18110f url('harmony-garage-hero.webp') center 48%/cover no-repeat;position:relative;border-bottom:0}
+.hero:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,8,8,.92) 0%,rgba(12,9,9,.78) 27%,rgba(13,9,9,.34) 54%,rgba(12,8,8,.04) 82%),linear-gradient(0deg,rgba(13,8,8,.42),transparent 35%);opacity:1}
+.hero:after{background:linear-gradient(180deg,transparent 78%,#130e0e50)}
+.hero-overlay{display:none}
+.hero-index{position:absolute;right:3%;bottom:26px;top:auto;background:#1a1111d9;border:1px solid #7b4b48;padding:12px 15px;color:#f2e7dc;font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:.1em}
+.hero-content{position:relative;z-index:3;width:min(1240px,100%);max-width:1240px;margin:auto;padding:110px 28px 45px}
+.hero-kicker{color:#ef7475;font-size:11px;letter-spacing:.19em}
+.hero h1{font-size:clamp(5.7rem,9vw,9.2rem);line-height:.83;letter-spacing:-.02em;margin:25px 0 29px;text-shadow:0 5px 24px #000b}
+.hero h1 em{color:#ee4a54}
+.hero p{font-size:15px;line-height:1.8;max-width:440px;color:#f1e9e5;text-shadow:0 2px 10px #000}
+.hero .actions{margin:35px 0 65px}
+.primary{background:#c52e3a;border:1px solid #e34751;color:white;font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:800;letter-spacing:.045em}
+.secondary{background:#170e0eb0;border:1px solid #c9aaa0;color:#f6e9e2;font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:800}
+.hero-bottom{border-top:1px solid #f0ded16b;padding-top:20px;max-width:750px;gap:35px;color:#f0e9e3}
+.hero-bottom span{font-family:'Barlow Condensed',sans-serif;font-size:16px;letter-spacing:.025em;line-height:1.5}
+.hero-bottom b{display:block;color:#e66d74;font-family:'DM Sans',sans-serif;font-size:9px;letter-spacing:.15em}
+.service-ticker{height:66px;background:#20120f;border-top:1px solid #8e3b37;border-bottom:1px solid #8e3b37;overflow:hidden;display:flex;align-items:center}
+.ticker-track{display:flex;align-items:center;gap:25px;white-space:nowrap;width:max-content;animation:marquee 36s linear infinite}
+.ticker-track span{font:800 26px 'Barlow Condensed',sans-serif;color:#f0e8e2}
+.ticker-track i{font-size:13px;color:#d3464a;font-style:normal}
+@keyframes marquee{to{transform:translateX(-33.333%)}}
+.intro{padding-top:110px;padding-bottom:110px}
+.intro h2,.section-top h2,.team-section h2,.events h2,.apply-section h2,.portal-section h2{font-size:clamp(3.8rem,7vw,6.8rem)}
+.menu-section{background:#1a1311;border-top:1px solid #4a312d;border-bottom:1px solid #4a312d}
+.menu-item{background:#241b19;border:1px solid #59403c;border-left:3px solid #c52e3a}
+.menu-item:hover{background:#30201f;border-color:#a45b55}
+.tab.active{background:#c52e3a;border-color:#e44b55}
+.team-section,.apply-section{background:#110e0e}
+.events{background:linear-gradient(120deg,#211513,#311a1b 60%,#170f10)}
+.event-grid article{background:#1b1413;border:1px solid #6b4140;border-top:3px solid #c52e3a}
+.portal-section{background:#191313}
+.panel{background:#241d1b;border:1px solid #594440}
+footer{background:#0c0909}
+@media(max-width:980px){.topbar{padding-left:20px;padding-right:20px}.hero{background-position:61% center}.hero:before{background:linear-gradient(90deg,#0d0909ed,#0d0909b3 60%,#0d090955)}.hero-content{padding-top:100px}.hero-index{display:none}}
+@media(max-width:650px){.topbar{height:auto;min-height:70px}.brand-logo{width:45px;height:46px}.hero{min-height:680px;background-position:64% center}.hero h1{font-size:clamp(5.3rem,15vw,7.3rem)}.hero-content{padding:105px 23px 35px}.hero p{max-width:340px}.hero .actions{margin-bottom:60px}.hero-bottom{gap:14px;flex-wrap:wrap}.hero-bottom span{font-size:13px}.service-ticker{height:54px}.ticker-track span{font-size:22px}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}}
