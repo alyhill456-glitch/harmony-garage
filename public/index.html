@@ -1,2 +1,511 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#0b0b0e" name="theme-color"/><title>Harmony Garage | Where Passion Meets the Road</title><link href="style.css" rel="stylesheet"/></head><body><header class="topbar"><a class="brand" href="#home"><img alt="Harmony Garage logo" class="brand-logo" src="harmony-logo.png"/><span>HARMONY <b>GARAGE</b><small>ROUTE 68 · LOS SANTOS</small></span></a><nav><a href="#home">Home</a><a href="#menu">Services</a><a href="#estimator">Build Estimator</a><a href="#vip">VIP Club</a><a href="#team">Our Crew</a><a href="#events">Events</a><a href="#apply">Apply</a><a href="#portal">Staff</a></nav><div id="account"><a class="discord" href="/auth/discord">Discord Login ↗</a></div></header><main><section class="hero" id="home"><div class="hero-overlay"></div><div class="hero-index">EST. 2024  /  LOS SANTOS</div><div class="hero-content"><span class="eyebrow hero-kicker">HARMONY GARAGE   /   ROUTE 68   /   POSTAL 4025</span><h1>BUILT FOR SPEED.<br/><em>BACKED BY PASSION.</em></h1><p>Performance upgrades, repairs, and builds that turn heads. Real people. Real passion. Find us on Route 68, postal 4025.</p><div class="actions"><a class="primary" href="#estimator">BUILD YOUR SETUP ↗</a><a class="secondary" href="#menu">EXPLORE SERVICES</a></div><div class="hero-bottom"><span><b>01 /</b> PERFORMANCE UPGRADES</span><span><b>02 /</b> FIVE SERVICE BAYS</span><span><b>03 /</b> BUILT FOR THE COMMUNITY</span></div></div></section><div aria-label="Services" class="performance-strip"><div class="strip-track"><span>ENGINE SWAPS</span><i>✦</i><span>PERFORMANCE TUNING</span><i>✦</i><span>DRIVETRAIN</span><i>✦</i><span>TIRES &amp; BRAKES</span><i>✦</i><span>ENGINE SWAPS</span><i>✦</i><span>PERFORMANCE TUNING</span><i>✦</i><span>DRIVETRAIN</span><i>✦</i><span>TIRES &amp; BRAKES</span></div></div><section class="intro wrap"><div><span class="eyebrow">THE HARMONY DIFFERENCE</span><h2>NOT JUST A <em>GARAGE.</em></h2></div><p>Brady brings the love of cars. Isabel brings the people and the energy. Together, we want Harmony Garage to be the kind of place you stop by for a quick repair, a full build, or just to hang out and talk cars.</p></section><section class="menu-section" id="menu"><div class="wrap"><span class="eyebrow">01 / SERVICES</span><div class="section-top"><div><h2>OUR SERVICE <em>MENU.</em></h2><p>Explore our proposed performance upgrades and specialty parts. Prices are subject to city requirements.</p></div><span class="menu-note">PRICES IN CITY CURRENCY</span></div><div class="tabs" id="menuTabs"></div><div class="menu-grid" id="menuItems"></div><p class="fine">Looking for a repair or cosmetic customization? Stop by the shop and chat with one of our mechanics.</p></div></section><section class="estimate-section" id="estimator"><div class="wrap"><div class="section-top"><div><span class="eyebrow">02 / PLAN YOUR BUILD</span><h2>BUILD IT. <em>PRICE IT.</em></h2><p>Mix and match performance upgrades and see your estimated parts total before you pull into Harmony.</p></div><span class="section-tag">LIVE PRICE CALCULATOR</span></div><div class="estimator-layout"><div aria-label="Upgrade categories" class="estimate-categories" id="estimateCategories"></div><div class="estimate-options" id="estimateOptions"></div><aside class="estimate-summary"><span class="eyebrow">YOUR BUILD</span><h3>THE BREAKDOWN.</h3><div aria-live="polite" id="estimateSelected"><p>No upgrades selected yet.</p></div><div class="estimate-total"><span>ESTIMATED TOTAL</span><strong id="estimateTotal">$0</strong></div><p class="estimate-disclaimer">Estimate only. Final availability and pricing are confirmed in city. No online checkout.</p><button class="secondary" id="estimateClear" type="button">CLEAR BUILD</button><button class="primary" id="estimateCopy" type="button">COPY BUILD LIST ↗</button><p id="estimateNotice" role="status"></p></aside></div></div></section><section class="vip-section" id="vip"><div class="wrap vip-layout"><div><span class="eyebrow">03 / HARMONY REWARDS</span><h2>THE HARMONY <em>VIP CLUB.</em></h2><p>We're working on purchasable loyalty memberships for our regulars. Think repair-kit perks, discounts on eligible services, and more reasons to keep coming back.</p><p class="vip-footnote">Membership tiers, pricing, and purchase options will be announced after they're finalized. Memberships are not for sale through this website yet.</p><a class="secondary" href="#menu">BROWSE THE MENU ↗</a></div><div class="vip-card"><span>HARMONY GARAGE</span><strong>VIP<span> / </span>CLUB</strong><div class="vip-rule"></div><small>PERFORMANCE · COMMUNITY · REWARDS</small><b>4025 / ROUTE 68</b></div></div></section><section class="wrap team-section" id="team"><span class="eyebrow">04 / OUR PEOPLE</span><h2>THE HARMONY <em>CREW.</em></h2><div class="team-grid"><article class="team-card"><span class="avatar">BB</span><span class="eyebrow">OWNER</span><h3>Brady Buldak</h3><p>The car guy. Hands-on with builds, mechanics, and keeping the shop running right.</p></article><article class="team-card"><span class="avatar">IB</span><span class="eyebrow">CO-OWNER</span><h3>Isabel Buldak</h3><p>The people person. Helping with the crew, events, customer experience, and making everyone feel welcome.</p></article><article class="team-card join"><span class="avatar">+</span><span class="eyebrow">NOW RECRUITING</span><h3>Your spot is waiting.</h3><p>Love cars, people, or learning something new? Come build something with us.</p><a href="#apply">Apply to join ↗</a></article></div></section><section class="events" id="events"><div class="wrap"><span class="eyebrow">05 / THE COMMUNITY</span><h2>SEE YOU AT THE <em>SHOP.</em></h2><div class="event-grid"><article><span>01 / CAR MEET</span><h3>Grand Opening</h3><p>Opening-day specials, a raffle, and a best-looking-car competition.</p></article><article><span>02 / NIGHT MEET</span><h3>Harmony After Hours</h3><p>Favorite builds, music, and fun competitions with prizes.</p></article><article><span>03 / COMMUNITY</span><h3>Cars &amp; Bites</h3><p>Cars, food, and good company with our neighbors at Yellowjack Bar &amp; Grill.</p></article></div></div></section><section class="wrap apply-section" id="apply"><div><span class="eyebrow">06 / JOIN THE CREW</span><h2>YOUR NEXT<br/>CHAPTER <em>STARTS HERE.</em></h2><p>We're looking for friendly, reliable people who want to learn, work hard, and be part of the Harmony family. Experience is great, but a good attitude matters too.</p><div class="apply-callout">Applications require Discord login so management can contact you.</div></div><form class="panel" id="applyForm"><h3>Employee Application</h3><label>In-city character name<input maxlength="1500" name="character_name" placeholder="First and last name" required=""/></label><label>Previous mechanic or work experience<textarea maxlength="1500" name="experience" placeholder="Tell us a little about your experience..." required="" rows="3"></textarea></label><label>Availability<textarea maxlength="1500" name="availability" placeholder="What days and times are you usually in city?" required="" rows="2"></textarea></label><label>Why do you want to work at Harmony Garage?<textarea maxlength="1500" name="motivation" placeholder="We'd love to get to know you!" required="" rows="3"></textarea></label><button class="primary" type="submit">Submit Application ↗</button><p class="message" id="applyMessage" role="status"></p></form></section><section class="portal-section" id="portal"><div class="wrap"><span class="eyebrow">07 / STAFF ACCESS</span><h2>THE STAFF <em>PORTAL.</em></h2><div class="panel" id="portalContent"><p>Sign in with Discord to access your employee dashboard, time clock, and shift history.</p><a class="discord" href="/auth/discord">Continue with Discord ↗</a></div></div></section></main><footer><div class="wrap foot"><div class="brand"><img alt="Harmony Garage logo" class="brand-logo" src="harmony-logo.png"/><span>HARMONY <b>GARAGE</b><small>WHERE PASSION MEETS THE ROAD</small></span></div><div>ROUTE 68 · POSTAL 4025 · NEXT TO YELLOWJACK BAR &amp; GRILL</div><div>© HARMONY GARAGE · LOS SANTOS RP</div></div></footer><script src="app.js"></script><script defer="True" src="performance.js"></script></body></html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#0b0b0e" name="theme-color"/>
+  <title>
+   Harmony Garage | Where Passion Meets the Road
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="topbar">
+   <a class="brand" href="#home">
+    <img alt="Harmony Garage logo" class="brand-logo" src="harmony-logo.png"/>
+    <span>
+     HARMONY
+     <b>
+      GARAGE
+     </b>
+     <small>
+      ROUTE 68 &middot; LOS SANTOS
+     </small>
+    </span>
+   </a>
+   <nav>
+    <a href="#home">
+     Home
+    </a>
+    <a href="#menu">
+     Services
+    </a>
+    <a href="#estimator">
+     Build Estimator
+    </a>
+    <a href="#vip">
+     VIP Club
+    </a>
+    <a href="#team">
+     Our Crew
+    </a>
+    <a href="#events">
+     Events
+    </a>
+    <a href="#apply">
+     Apply
+    </a>
+    <a href="#portal">
+     Staff
+    </a>
+   </nav>
+   <div id="account">
+    <a class="discord" href="/auth/discord">
+     Discord Login &nearrow;
+    </a>
+   </div>
+  </header>
+  <main>
+   <section class="hero" id="home">
+    <div class="hero-overlay">
+    </div>
+    <div class="hero-index">
+     EST. 2024  /  LOS SANTOS
+    </div>
+    <div class="hero-content">
+     <span class="eyebrow hero-kicker">
+      HARMONY GARAGE   /   ROUTE 68   /   POSTAL 4025
+     </span>
+     <h1>
+      BUILT FOR SPEED.
+      <br/>
+      <em>
+       BACKED BY PASSION.
+      </em>
+     </h1>
+     <p>
+      Performance upgrades, repairs, and builds that turn heads. Real people. Real passion. Find us on Route 68, postal 4025.
+     </p>
+     <div class="actions">
+      <a class="primary" href="#estimator">
+       BUILD YOUR SETUP &nearrow;
+      </a>
+      <a class="secondary" href="#menu">
+       EXPLORE SERVICES
+      </a>
+     </div>
+     <div class="hero-bottom">
+      <span>
+       <b>
+        01 /
+       </b>
+       PERFORMANCE UPGRADES
+      </span>
+      <span>
+       <b>
+        02 /
+       </b>
+       FIVE SERVICE BAYS
+      </span>
+      <span>
+       <b>
+        03 /
+       </b>
+       BUILT FOR THE COMMUNITY
+      </span>
+     </div>
+    </div>
+   </section>
+   <div aria-label="Services" class="performance-strip">
+    <div class="strip-track">
+     <span>
+      ENGINE SWAPS
+     </span>
+     <i>
+      ✦
+     </i>
+     <span>
+      PERFORMANCE TUNING
+     </span>
+     <i>
+      ✦
+     </i>
+     <span>
+      DRIVETRAIN
+     </span>
+     <i>
+      ✦
+     </i>
+     <span>
+      TIRES &amp; BRAKES
+     </span>
+     <i>
+      ✦
+     </i>
+     <span>
+      ENGINE SWAPS
+     </span>
+     <i>
+      ✦
+     </i>
+     <span>
+      PERFORMANCE TUNING
+     </span>
+     <i>
+      ✦
+     </i>
+     <span>
+      DRIVETRAIN
+     </span>
+     <i>
+      ✦
+     </i>
+     <span>
+      TIRES &amp; BRAKES
+     </span>
+    </div>
+   </div>
+   <section class="intro wrap">
+    <div>
+     <span class="eyebrow">
+      THE HARMONY DIFFERENCE
+     </span>
+     <h2>
+      NOT JUST A
+      <em>
+       GARAGE.
+      </em>
+     </h2>
+    </div>
+    <p>
+     We're not here to be just another mechanic shop. Harmony Garage was built for those who take pride in what they drive. Whether it's a simple repair or a complete performance upgrade, our goal is to deliver quality service, attention to detail, and results that speak for themselves.
+    </p>
+   </section>
+   <section class="menu-section" id="menu">
+    <div class="wrap">
+     <span class="eyebrow">
+      01 / SERVICES
+     </span>
+     <div class="section-top">
+      <div>
+       <h2>
+        OUR SERVICE
+        <em>
+         MENU.
+        </em>
+       </h2>
+       <p>
+        Explore our proposed performance upgrades and specialty parts. Prices are subject to city requirements.
+       </p>
+      </div>
+      <span class="menu-note">
+       PRICES IN CITY CURRENCY
+      </span>
+     </div>
+     <div class="tabs" id="menuTabs">
+     </div>
+     <div class="menu-grid" id="menuItems">
+     </div>
+     <p class="fine">
+      Looking for a repair or cosmetic customization? Stop by the shop and chat with one of our mechanics.
+     </p>
+    </div>
+   </section>
+   <section class="estimate-section" id="estimator">
+    <div class="wrap">
+     <div class="section-top">
+      <div>
+       <span class="eyebrow">
+        02 / PLAN YOUR BUILD
+       </span>
+       <h2>
+        BUILD IT.
+        <em>
+         PRICE IT.
+        </em>
+       </h2>
+       <p>
+        Mix and match performance upgrades and see your estimated parts total before you pull into Harmony.
+       </p>
+      </div>
+      <span class="section-tag">
+       LIVE PRICE CALCULATOR
+      </span>
+     </div>
+     <div class="estimator-layout">
+      <div aria-label="Upgrade categories" class="estimate-categories" id="estimateCategories">
+      </div>
+      <div class="estimate-options" id="estimateOptions">
+      </div>
+      <aside class="estimate-summary">
+       <span class="eyebrow">
+        YOUR BUILD
+       </span>
+       <h3>
+        THE BREAKDOWN.
+       </h3>
+       <div aria-live="polite" id="estimateSelected">
+        <p>
+         No upgrades selected yet.
+        </p>
+       </div>
+       <div class="estimate-total">
+        <span>
+         ESTIMATED TOTAL
+        </span>
+        <strong id="estimateTotal">
+         $0
+        </strong>
+       </div>
+       <p class="estimate-disclaimer">
+        Estimate only. Final availability and pricing are confirmed in city. No online checkout.
+       </p>
+       <button class="secondary" id="estimateClear" type="button">
+        CLEAR BUILD
+       </button>
+       <button class="primary" id="estimateCopy" type="button">
+        COPY BUILD LIST &nearrow;
+       </button>
+       <p id="estimateNotice" role="status">
+       </p>
+      </aside>
+     </div>
+    </div>
+   </section>
+   <section class="vip-section" id="vip">
+    <div class="wrap vip-layout">
+     <div>
+      <span class="eyebrow">
+       03 / HARMONY REWARDS
+      </span>
+      <h2>
+       THE HARMONY
+       <em>
+        VIP CLUB.
+       </em>
+      </h2>
+      <p>
+       We're working on purchasable loyalty memberships for our regulars. Think repair-kit perks, discounts on eligible services, and more reasons to keep coming back.
+      </p>
+      <p class="vip-footnote">
+       Membership tiers, pricing, and purchase options will be announced after they're finalized. Memberships are not for sale through this website yet.
+      </p>
+      <a class="secondary" href="#menu">
+       BROWSE THE MENU &nearrow;
+      </a>
+     </div>
+     <div class="vip-card">
+      <span>
+       HARMONY GARAGE
+      </span>
+      <strong>
+       VIP
+       <span>
+        /
+       </span>
+       CLUB
+      </strong>
+      <div class="vip-rule">
+      </div>
+      <small>
+       PERFORMANCE &middot; COMMUNITY &middot; REWARDS
+      </small>
+      <b>
+       4025 / ROUTE 68
+      </b>
+     </div>
+    </div>
+   </section>
+   <section class="wrap team-section" id="team">
+    <span class="eyebrow">
+     04 / OUR PEOPLE
+    </span>
+    <h2>
+     THE HARMONY
+     <em>
+      CREW.
+     </em>
+    </h2>
+    <div class="team-grid">
+     <article class="team-card">
+      <span class="avatar">
+       BB
+      </span>
+      <span class="eyebrow">
+       OWNER
+      </span>
+      <h3>
+       Brady Buldak
+      </h3>
+      <p>
+       The car guy. Hands-on with builds, mechanics, and keeping the shop running right.
+      </p>
+     </article>
+     <article class="team-card">
+      <span class="avatar">
+       IB
+      </span>
+      <span class="eyebrow">
+       CO-OWNER
+      </span>
+      <h3>
+       Isabel Buldak
+      </h3>
+      <p>
+       The people person. Helping with the crew, events, customer experience, and making everyone feel welcome.
+      </p>
+     </article>
+     <article class="team-card join">
+      <span class="avatar">
+       +
+      </span>
+      <span class="eyebrow">
+       NOW RECRUITING
+      </span>
+      <h3>
+       Your spot is waiting.
+      </h3>
+      <p>
+       Love cars, people, or learning something new? Come build something with us.
+      </p>
+      <a href="#apply">
+       Apply to join &nearrow;
+      </a>
+     </article>
+    </div>
+   </section>
+   <section class="events" id="events">
+    <div class="wrap">
+     <span class="eyebrow">
+      05 / THE COMMUNITY
+     </span>
+     <h2>
+      SEE YOU AT THE
+      <em>
+       SHOP.
+      </em>
+     </h2>
+     <div class="event-grid">
+      <article>
+       <span>
+        01 / CAR MEET
+       </span>
+       <h3>
+        Grand Opening
+       </h3>
+       <p>
+        Opening-day specials, a raffle, and a best-looking-car competition.
+       </p>
+      </article>
+      <article>
+       <span>
+        02 / NIGHT MEET
+       </span>
+       <h3>
+        Harmony After Hours
+       </h3>
+       <p>
+        Favorite builds, music, and fun competitions with prizes.
+       </p>
+      </article>
+      <article>
+       <span>
+        03 / COMMUNITY
+       </span>
+       <h3>
+        Cars &amp; Bites
+       </h3>
+       <p>
+        Cars, food, and good company with our neighbors at Yellowjack Bar &amp; Grill.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="wrap apply-section" id="apply">
+    <div>
+     <span class="eyebrow">
+      06 / JOIN THE CREW
+     </span>
+     <h2>
+      YOUR NEXT
+      <br/>
+      CHAPTER
+      <em>
+       STARTS HERE.
+      </em>
+     </h2>
+     <p>
+      We're looking for friendly, reliable people who want to learn, work hard, and be part of the Harmony family. Experience is great, but a good attitude matters too.
+     </p>
+     <div class="apply-callout">
+      Applications require Discord login so management can contact you.
+     </div>
+    </div>
+    <form class="panel" id="applyForm">
+     <h3>
+      Employee Application
+     </h3>
+     <label>
+      In-city character name
+      <input maxlength="1500" name="character_name" placeholder="First and last name" required=""/>
+     </label>
+     <label>
+      Previous mechanic or work experience
+      <textarea maxlength="1500" name="experience" placeholder="Tell us a little about your experience..." required="" rows="3"></textarea>
+     </label>
+     <label>
+      Availability
+      <textarea maxlength="1500" name="availability" placeholder="What days and times are you usually in city?" required="" rows="2"></textarea>
+     </label>
+     <label>
+      Why do you want to work at Harmony Garage?
+      <textarea maxlength="1500" name="motivation" placeholder="We'd love to get to know you!" required="" rows="3"></textarea>
+     </label>
+     <button class="primary" type="submit">
+      Submit Application &nearrow;
+     </button>
+     <p class="message" id="applyMessage" role="status">
+     </p>
+    </form>
+   </section>
+   <section class="portal-section" id="portal">
+    <div class="wrap">
+     <span class="eyebrow">
+      07 / STAFF ACCESS
+     </span>
+     <h2>
+      THE STAFF
+      <em>
+       PORTAL.
+      </em>
+     </h2>
+     <div class="panel" id="portalContent">
+      <p>
+       Sign in with Discord to access your employee dashboard, time clock, and shift history.
+      </p>
+      <a class="discord" href="/auth/discord">
+       Continue with Discord &nearrow;
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="wrap foot">
+    <div class="brand">
+     <img alt="Harmony Garage logo" class="brand-logo" src="harmony-logo.png"/>
+     <span>
+      HARMONY
+      <b>
+       GARAGE
+      </b>
+      <small>
+       WHERE PASSION MEETS THE ROAD
+      </small>
+     </span>
+    </div>
+    <div>
+     ROUTE 68 &middot; POSTAL 4025 &middot; NEXT TO YELLOWJACK BAR &amp; GRILL
+    </div>
+    <div>
+     &copy; HARMONY GARAGE &middot; LOS SANTOS RP
+    </div>
+   </div>
+  </footer>
+  <script src="app.js">
+  </script>
+  <script defer="True" src="performance.js">
+  </script>
+ </body>
+</html>
